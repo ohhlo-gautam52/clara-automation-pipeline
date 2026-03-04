@@ -53,38 +53,6 @@ Retell Agent Draft Spec (v2)
 ↓  
 Detailed Changelog  
 
-
-
-# Folder Structure
-
-
-clara-automation/
-│
-├── dataset/
-│   ├── demo/
-│   └── onboarding/
-│
-├── outputs/
-│   └── accounts/
-│        └── <account_id>/
-│             ├── v1/
-│             │    ├── memo.json
-│             │    └── agent_spec.json
-│             └── v2/
-│                  ├── memo.json
-│                  └── agent_spec.json
-│
-├── changelog/
-│   └── <account_id>_changes.md
-│
-├── scripts/
-│   ├── extractor.py
-│   ├── agent_generator.py
-│   ├── patch_engine.py
-│   └── run_pipeline.py
-│
-└── README.md
-
 # How to Run
 
 ## 1. Add Transcripts
