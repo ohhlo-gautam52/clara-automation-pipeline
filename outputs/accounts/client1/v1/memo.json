@@ -1,0 +1,30 @@
+{
+  "account_id": "client1",
+  "company_name": "",
+  "business_hours": {
+    "days": [],
+    "start": "",
+    "end": "",
+    "timezone": ""
+  },
+  "office_address": "",
+  "services_supported": [],
+  "emergency_definition": [],
+  "emergency_routing_rules": [],
+  "non_emergency_routing_rules": [],
+  "call_transfer_rules": {
+    "timeout_seconds": "",
+    "retry_attempts": "",
+    "failure_message": ""
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Company name not mentioned",
+    "Business days not specified",
+    "Business hours not specified",
+    "Emergency definition not clearly specified"
+  ],
+  "notes": "Generated from demo transcript (v1)."
+}

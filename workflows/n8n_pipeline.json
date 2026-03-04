@@ -1,0 +1,56 @@
+{
+  "name": "Clara Automation Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -320,
+        -96
+      ],
+      "id": "336789aa-e3be-4bb3-8e57-1d8638e8fc7d",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/run-pipeline",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -112,
+        -96
+      ],
+      "id": "c1cae417-6874-411a-aeef-dc3b9caf2c66",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "4b4586a2-e850-4a60-8570-312a29068940",
+  "meta": {
+    "instanceId": "c16a8b1aa5db7a353a68d7932982fca0fa699937609d9fa01e1eae5adde4799b"
+  },
+  "id": "9Es5IynDzMKHiU27",
+  "tags": []
+}
